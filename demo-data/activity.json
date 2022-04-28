@@ -10,12 +10,12 @@
         { "FirstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}"},
         { "LastName": "{{Contact.Attribute.JourneyEntrySource.LastName}}"}
       ],
-      "url": "https://requestbin.fullcontact.com/r92a9gr9/execute"
+      "url": "https://enmgo9emp53m.x.pipedream.net/execute"
     }
   },
   "configurationArguments": {
     "publish": {
-      "url": "https://requestbin.fullcontact.com/r92a9gr9/publish"
+      "url": "https://enmgo9emp53m.x.pipedream.net/publish"
     }
   },
   "metaData": {
