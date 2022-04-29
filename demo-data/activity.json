@@ -6,15 +6,16 @@
     "execute": {
       "inArguments": [
         { "contactKey": "{{Contact.Key}}" },
-        { "FirstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}"},
-        { "LastName": "{{Contact.Attribute.JourneyEntrySource.LastName}}"}
+        { "FirstName": "{{Contact.Attribute.Categories.FirstName}}"},
+        { "LastName": "{{Contact.Attribute.Categories.LastName}}"},
+        { "Categories": "{{Contact.Attribute.Categories.Categories}}"}
       ],
-      "url": "https://enmgo9emp53m.x.pipedream.net/execute"
+      "url":"https://media.smsgupshup.com/GatewayAPI/rest?method=SendMessage&format=json&userid=2000203297&password=qFx2dPXV&send_to=918744075399&v=1.1&auth_scheme=plain&msg_type=HSM&msg=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome/execute"
     }
   },
   "configurationArguments": {
     "publish": {
-      "url": "https://enmgo9emp53m.x.pipedream.net/publish"
+      "url":"https://media.smsgupshup.com/GatewayAPI/rest?method=SendMessage&format=json&userid=2000203297&password=qFx2dPXV&send_to=918744075399&v=1.1&auth_scheme=plain&msg_type=HSM&msg=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome/publish"
     }
   },
   "metaData": {
