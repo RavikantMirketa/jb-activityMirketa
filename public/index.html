@@ -5,9 +5,13 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
+  <form action="save">
+    <input type="text" aria-label="Username" id="Username"/>
+    <input type="text" aria-label="Password" id="Password"/>
+    <input type="button" value="Save"/>
+  </form>
   <h3>Configuration JSON</h3>
-  <input type="text" id="phonenumber">
+  
   <textarea id="configuration"></textarea>
 
   <script src="postmonger.js"></script>
