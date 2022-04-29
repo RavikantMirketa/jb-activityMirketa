@@ -1,11 +1,8 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
-    "icon": "https://sample-activity.herokuapp.com/icon.png",
-    "category": "message",
-    "iconSmall": null,
-    "original_icon": "icon.png",
-    "isConfigured": true
+    "icon": "icon.png",
+    "category": "message"
   },
   "type": "REST",
   "userInterfaces": {
