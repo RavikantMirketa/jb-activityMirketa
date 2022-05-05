@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Simple Journey Builder Activity</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <form action="save">
-    <input type="text" aria-label="Username" id="Username"/>
-    <input type="text" aria-label="Password" id="Password"/>
-    <input type="button" value="Save"/>
-  </form>
+  <head>
+    <title>Simple Journey Builder Activity</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div id="step1" class="step">
+        <div>
+          <h4 align="center">Gupshup enterprise credentials</h4>
+          <hr />
+          <br />
+        </div>
+        <div>
+          <div>Enter your user id:</div>
+          <input class="inputtag" type="text" name="username" />
+          <br />
+        </div>
+        <br />
+        <div>
+          <div>Enter your password:</div>
+          <input class="inputtag" type="password" name="password" />
+        </div>
+        <br />
 
-  <h3>Configuration JSON</h3> 
-  <textarea id="configuration"></textarea>
+        <div style="text-align: center">
+          <button id="toggleNextStep" class="buttontag">Next</button>
+        </div>
+      </div>
+    </div>
+    <div class="flexbox">
+      <div id="step2" class="step2"></div>
+    </div>
 
-  <script src="postmonger.js"></script>
-  <script src="activity.js"></script>
-
-</body>
+    <script src="postmonger.js"></script>
+    <script src="activity.js"></script>
+  </body>
 </html>
