@@ -118,7 +118,7 @@ function save() {
   //   msg_template
   // )}`;
 
-  const url = `https://myappjsacti.herokuapp.com/sendMessage?user_id=${username}&password=${password}&phone_number={{Contact.Attribute.TestDataByGupshup.Mobile}}&message=${encodeURIComponent(
+  const url = `https://myappjsacti.herokuapp.com/sendMessage?user_id=${username}&password=${password}&phone_number={{Contact.Attribute.Categories.Mobile}}&message=${encodeURIComponent(
     msg_template
   )}`;
 
