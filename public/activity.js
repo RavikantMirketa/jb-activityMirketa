@@ -17,12 +17,12 @@ const activityJson = {
           LastName: '{{Contact.Attribute.TestDataByGupshup.LastName}}',
         },
       ],
-      url: 'https://us-central1-integrations-service-10ecc.cloudfunctions.net/sfmcapp/sendMessage?user_id=2000203297&password=qFx2dPXV&phone_number={{Contact.Attribute.TestDataByGupshup.Mobile}}&message=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome',
+      url: 'https://myappjsacti.herokuapp.com/sendMessage?user_id=2000203297&password=qFx2dPXV&phone_number={{Contact.Attribute.TestDataByGupshup.Mobile}}&message=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome',
     },
   },
   configurationArguments: {
     publish: {
-      url: 'https://us-central1-integrations-service-10ecc.cloudfunctions.net/sfmcapp/sendMessage?user_id=2000203297&password=qFx2dPXV&phone_number={{Contact.Attribute.TestDataByGupshup.Mobile}}&message=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome',
+      url: 'https://myappjsacti.herokuapp.com/sfmcapp/sendMessage?user_id=2000203297&password=qFx2dPXV&phone_number={{Contact.Attribute.TestDataByGupshup.Mobile}}&message=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome',
     },
   },
   metaData: {
@@ -118,7 +118,7 @@ function save() {
   //   msg_template
   // )}`;
 
-  const url = `https://us-central1-integrations-service-10ecc.cloudfunctions.net/sfmcapp/sendMessage?user_id=${username}&password=${password}&phone_number={{Contact.Attribute.TestDataByGupshup.Mobile}}&message=${encodeURIComponent(
+  const url = `https://myappjsacti.herokuapp.com/sendMessage?user_id=${username}&password=${password}&phone_number={{Contact.Attribute.TestDataByGupshup.Mobile}}&message=${encodeURIComponent(
     msg_template
   )}`;
 
