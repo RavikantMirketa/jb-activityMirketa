@@ -1,5 +1,5 @@
 var express = require('express');
-const functions = require('firebase-functions');
+//const functions = require('firebase-functions');
 const axios = require('axios');
 const { enterpriseApi, sendMessageApi } = require('./public/constants');
 
