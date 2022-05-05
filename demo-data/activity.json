@@ -10,12 +10,12 @@
         { "LastName": "{{Contact.Attribute.Categories.LastName}}"},
         { "Categories": "{{Contact.Attribute.Categories.Categories}}"}
       ],
-      "url":"https://media.smsgupshup.com/GatewayAPI/rest?method=SendMessage&format=json&userid=2000203297&password=qFx2dPXV&send_to={{Contact.Attribute.Categories.Mobile}}&v=1.1&auth_scheme=plain&msg_type=HSM&msg=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome/execute"
+      "url":"https://media.smsgupshup.com/GatewayAPI/rest"
     }
   },
   "configurationArguments": {
     "publish": {
-      "url":"https://media.smsgupshup.com/GatewayAPI/rest?method=SendMessage&format=json&userid=2000203297&password=qFx2dPXV&send_to={{Contact.Attribute.Categories.Mobile}}&v=1.1&auth_scheme=plain&msg_type=HSM&msg=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome/publish"
+      "url":"https://media.smsgupshup.com/GatewayAPI/rest"
     }
   },
   "metaData": {
