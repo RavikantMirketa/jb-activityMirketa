@@ -15,7 +15,7 @@ const activityJson = {
         },
         {
           LastName: '{{Contact.Attribute.Categories.LastName}}',
-        },
+        }
       ],
       url: 'https://myappjsacti.herokuapp.com/sendMessage?user_id=2000203297&password=qFx2dPXV&phone_number={{Contact.Attribute.Categories.Mobile}}&message=Welcome%20to%20Gupshup.%20Click%20on%20the%20link%20below%20to%20continue%20https%3A%2F%2Fwww.gupshup.io%2Fdeveloper%2Fhome',
     },
